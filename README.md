@@ -85,11 +85,23 @@ To set up the project:
    ```sh
    npm i 
    ```
-4. **Build the project**: 
+4. **Initialize Prisma**
+   ```sh
+   npx prisma init
+   ```
+5. **Generate Prisma Client**
+   ```sh
+   npx prisma generate
+   ```
+6. **Migrate to the DB**
+   ```sh
+   npx prisma migrate dev --name first
+   ```
+7. **Build the project**: 
    ```sh
     npm run build
    ```
-5. **Start the server**: 
+8. **Start the server**: 
    ```sh
     npm start
    ```
